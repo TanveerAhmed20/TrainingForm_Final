@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.view-training-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* background-color: #f7f8fc; */
+    font-family: "Roboto Slab", sans-serif;
+    color: white;
+}
+
+.card {
+    background-color: rgb(143, 35, 35);
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 700px;
+    background-color: #464646;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 250px;
+}
+
+.tag {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: #000000;
+    border-radius: 50px;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.tag-teal {
+    background-color: #47bcd4;
+}
+
+.tag-purple {
+    background-color: #5e76bf;
+}
+
+.tag-red {
+    background-color: #ff4d4d;
+}
+
+.card-body p {
+    font-size: 15px;
+    margin: 0 0 40px;
+}
+
+.details-row {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 2px 0px;
+}
+
+.details-row .span-data {
+    margin-left: 20px;
+}
+
+.description-row {
+    text-align: justify;
+}
+
+.description-row h4 {
+    margin-bottom: 30px;
+}
+
+.description-row u {
+    font-size: 19px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.button-group h2 {
+    margin: 0px 10px;
+}
+
+.tag:hover {
+    border: 1px solid white;
+}
+
+.seperator {
+    display: inline-block;
+    height: 2px;
+    background-color: #000000;
+    width: 100%;
+    box-shadow: 5px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
